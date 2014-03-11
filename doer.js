@@ -15,6 +15,40 @@ function dohomework()
 	var n = email.search("@")
 	var correct = 0;
 }
+    
+function viewname()
+{
+    var param = location.search.substring(1).split("&");
+    var temp  = param[0].split("=");
+    var name = unescape(temp[1]);
+    document.getElementById("resultbox").value = "Hi " + name + "!";
+    
+    if(name == "Cheska" || name == "cheska" || name == "raiza" || name == "Raiza" )
+        {
+            document.getElementById("maincontent").setAttribute("style", "background: pink;");
+            document.getElementById("resultbox").setAttribute("style", "background: pink; color: #171717;");
+        }
+        if(name == "annachelle" || name == "Annachelle" || name == "gero" || name == "Gero" || name == "abie" || name == "Abie")
+        {
+            document.getElementById("maincontent").setAttribute("style", "background: #ff4e00;");            
+            document.getElementById("resultbox").setAttribute("style", "background: #ff4e00;");
+        }
+        if(name == "laurenz" || name == "Laurenz")
+        {
+            document.getElementById("maincontent").setAttribute("style", "background: #db3f3f;");            
+            document.getElementById("resultbox").setAttribute("style", "background: #db3f3f;");            
+        }
+        if(name == "ayami" || name == "Ayami" || name == "tim" || name == "Tim" || name == "Elisha" || name == "elisha" || name == "Elisha")
+        {
+            document.getElementById("maincontent").setAttribute("style", "background: #2a2860;");            
+            document.getElementById("resultbox").setAttribute("style", "background: #2a2860; color: #fdf400;");            
+        }
+        if(name == "aram" || name == "Aram")
+        {
+            document.getElementById("maincontent").setAttribute("style", "background: #a2ff5d;");            
+            document.getElementById("resultbox").setAttribute("style", "background: #a2ff5d; color: black;");            
+        }
+}
 
     function changepage(obj)
     {	
@@ -58,6 +92,8 @@ function dohomework()
         //alert("hello id" + user);
     }
     
+
+
     function loaduserid()
     {
         var name = getcookie("userid");

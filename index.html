@@ -31,13 +31,14 @@
                             Hello is a greeting. It's free and we should use it often.
                         </div>
                         <div id="hiddenspace-50"></div>
-                        <div class="large-6">
-                            <input type="text" placeholder="Your First Name :)" id="namebox">                            
-                        </div>
-                        <div>                            
-                            <button class="font-segoe-light" id="btn_Submit" onmousedown="changepage(this)">
-                                I typed my name correctly above this button
-                            </button>                             
+                        
+                        <div>
+                            <form action="main.html" method="get">
+                                <div class="large-6">
+                                    <input type="text" placeholder="Your First Name :)" id="namebox" name="namebox">
+                                    <input type="submit" value="Let's Go" id="btn_Submit" name="btn_Submit"> 
+                                </div>        
+                            </form>                            
                         </div>
                     </center>
                 </div>
