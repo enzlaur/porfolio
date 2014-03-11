@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<script src="doer.js"></script>
 		<script src="/js/vendor/modernizr.js"></script>
-        <script> 
+        <script language="JavaScript"> 
             function viewname()
                 {
                     console.log("Something");
@@ -56,10 +56,12 @@
         </script>
 	</head>
 
-	<body onload="viewname()" id="mainbody">
+	<body onload="changepage(this)" id="mainbody">
         <script src="doer.js"></script>
-        
-        <div class="pt-page-scaleUp" id="maincontent">           
+        <script language="JavaScript">
+            viewname();
+        </script>
+        <div class="row pt-page-scaleUp" id="maincontent">           
             <div class="large-12 columns">
                 <div id="hiddenspace-120">
                     <center>

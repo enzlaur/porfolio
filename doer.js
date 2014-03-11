@@ -48,7 +48,7 @@ function viewname()
         console.log("change page: " + user);
         setcookie("userid", user);
         checkcookie();
-        window.location.href = "main.html";
+        //window.location.href = "main.html";
     }
     
     function setcookie(cname, cvalue)
