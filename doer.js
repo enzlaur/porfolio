@@ -50,6 +50,7 @@ function delineate(str)
     var param = location.search.substring(1).split("&");
     var temp  = param[0].split("=");
     var name = unescape(temp[1]);
+    console.log("name = " + name);
     return name;
     //theleft = str.indexOf("=") + 1;
     //theright = str.lastIndexOf("&");
