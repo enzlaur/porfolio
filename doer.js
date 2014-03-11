@@ -8,7 +8,7 @@ function viewname()
 {
     
     var locate = window.location + " ";
-    document.getElementById("hidme").value = locate +"";
+    //document.getElementById("hidme").value = locate +"";
     console.log("locate" + locate);
     //delineate(locate);    
     
