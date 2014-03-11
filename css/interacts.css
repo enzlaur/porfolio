@@ -118,5 +118,69 @@
 #maincontent {
     background: #162638;
     height: 100%;
+    height: inherit; 
+    width: 100%;
+}
+
+#resultbox {
+    background: #162638;
+    border: 0;
+    border-color: #162638;
+    border-radius: 30px;
+    color: white;
+    font-family: Segoe UI Light;
+    font-size: 200px;
+    height: 300px;
+    text-align: center;
+    width: 100%;
+    transition: background 0.5s;
+}
+
+#resultbox:focus {
+    background: #496483;    
+}
+
+#mainbody {
+    background: #162638;
+}
+
+#box1 {
+    background: #0f1014;
+    height: 400px;
+    width: 100%;
+}
+
+.art-orbit {
+    height: 400px;
+    width: 300px;
+}
+
+.example-orbit {
+    height: 400px;
+}
+
+.img-art {
+    height: 400px;     
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#box2 {
+    background: #171717;
+    
+    height: 700px;
+}
+
+#box3 {
+    background: #3a3a71;
+    height: 900px;
+}
+
+#comingsoon {
+    width: 100%;
+}
+
+.app-art {
     width: 100%;
 }
