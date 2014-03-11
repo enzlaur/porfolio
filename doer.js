@@ -3,21 +3,10 @@ function loadme()
 {	
 	console.log("loadme has been called");
 }
-
-function dohomework()
-{
-	console.log("dohomework called");
-	var fname = document.getElementById("fname").value;
-	var lname = document.getElementById("lname").value;
-	var email = document.getElementById("email").value;
-	var pass1 = document.getElementById("pass1").value;
-	var pass2 = document.getElementById("pass2").value;
-	var n = email.search("@")
-	var correct = 0;
-}
     
 function viewname()
 {
+    console.log("Something");
     var param = location.search.substring(1).split("&");
     var temp  = param[0].split("=");
     var name = unescape(temp[1]);
@@ -38,7 +27,8 @@ function viewname()
             document.getElementById("maincontent").setAttribute("style", "background: #db3f3f;");            
             document.getElementById("resultbox").setAttribute("style", "background: #db3f3f;");            
         }
-        if(name == "ayami" || name == "Ayami" || name == "tim" || name == "Tim" || name == "Elisha" || name == "elisha" || name == "Elisha")
+        if(name == "ayami" || name == "Ayami" || name == "tim" || name == "Tim" || name == "Elisha" 
+            || name == "elisha" || name == "Elisha")
         {
             document.getElementById("maincontent").setAttribute("style", "background: #2a2860;");            
             document.getElementById("resultbox").setAttribute("style", "background: #2a2860; color: #fdf400;");            
@@ -47,8 +37,7 @@ function viewname()
         {
             document.getElementById("maincontent").setAttribute("style", "background: #a2ff5d;");            
             document.getElementById("resultbox").setAttribute("style", "background: #a2ff5d; color: black;");            
-        }
-    viewname();
+        }    
 }
 
     function changepage(obj)
