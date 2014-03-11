@@ -8,13 +8,13 @@ function viewname()
 {
     
     var locate = window.location;
-    document.form.hidden.value = locate;
+    document.getElementById("hidme").value = locate +"";
     console.log("locate" + locate);
-    delineate(locate);
+    //delineate(locate);
     
     
-    var name = delineate(locate);
-    document.getElementById("resultbox").value = "Hi " + name + "!";
+    //var name = delineate(locate);
+    document.getElementById("resultbox").value = "Hi " + locate + "!";
     
     if(name == "Cheska" || name == "cheska" || name == "raiza" || name == "Raiza" )
         {
@@ -49,7 +49,7 @@ function delineate(str)
     console.log("Something");
     var param = location.search.substring(1).split("&");
     var temp  = param[0].split("=");
-    var name = unescape(temp[1]);
+    var name = unescape(temp[1]) + "";
     console.log("name = " + name);
     return name;
     //theleft = str.indexOf("=") + 1;
