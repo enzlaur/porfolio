@@ -7,15 +7,16 @@ function loadme()
 function viewname()
 {
     
-    var locate = window.location;
+    var locate = window.location + " ";
     document.getElementById("hidme").value = locate +"";
     console.log("locate" + locate);
-    //delineate(locate);
-    
+    //delineate(locate);    
     
     //var name = delineate(locate);
-    document.getElementById("resultbox").value = "Hi " + locate + "!";
-    
+    var name = "laurenz";
+    name = locate;
+    name = delineate(name);
+    document.getElementById("resultbox").value = "Hi " + name + "!";    
     if(name == "Cheska" || name == "cheska" || name == "raiza" || name == "Raiza" )
         {
             document.getElementById("maincontent").setAttribute("style", "background: pink;");
