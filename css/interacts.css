@@ -121,8 +121,7 @@
 
 #maincontent {
     background: #162638;
-    height: 100%;
-    height: inherit; 
+    height: 600px;     
     width: 100%;
 }
 
