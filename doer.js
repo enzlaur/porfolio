@@ -48,6 +48,7 @@ function viewname()
             document.getElementById("maincontent").setAttribute("style", "background: #a2ff5d;");            
             document.getElementById("resultbox").setAttribute("style", "background: #a2ff5d; color: black;");            
         }
+    viewname();
 }
 
     function changepage(obj)
