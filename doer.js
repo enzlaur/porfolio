@@ -6,10 +6,14 @@ function loadme()
     
 function viewname()
 {
-    console.log("Something");
-    var param = location.search.substring(1).split("&");
-    var temp  = param[0].split("=");
-    var name = unescape(temp[1]);
+    
+    var locate = window.location;
+    document.form.hidden.value = locate;
+    console.log("locate" + locate);
+    delineate(locate);
+    
+    
+    var name = delineate(locate);
     document.getElementById("resultbox").value = "Hi " + name + "!";
     
     if(name == "Cheska" || name == "cheska" || name == "raiza" || name == "Raiza" )
@@ -40,6 +44,17 @@ function viewname()
         }    
 }
 
+function delineate(str)
+{
+    console.log("Something");
+    var param = location.search.substring(1).split("&");
+    var temp  = param[0].split("=");
+    var name = unescape(temp[1]);
+    return name;
+    //theleft = str.indexOf("=") + 1;
+    //theright = str.lastIndexOf("&");
+    //return(str.substring(theleft, theright));
+}
     function changepage(obj)
     {	
         console.log("pressed")

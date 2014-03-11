@@ -16,52 +16,20 @@
 		<link rel="stylesheet" href="css/laurenz.css">
 		<link rel="stylesheet" href="css/normalize.css">
 		<script src="doer.js"></script>
-		<script src="/js/vendor/modernizr.js"></script>
-        <script language="JavaScript"> 
-            function viewname()
-                {
-                    console.log("Something");
-                    var param = location.search.substring(1).split("&");
-                    var temp  = param[0].split("=");
-                    var name = unescape(temp[1]);
-                    document.getElementById("resultbox").value = "Hi " + name + "!";
-
-                    if(name == "Cheska" || name == "cheska" || name == "raiza" || name == "Raiza" )
-                        {
-                            document.getElementById("maincontent").setAttribute("style", "background: pink;");
-                            document.getElementById("resultbox").setAttribute("style", "background: pink; color: #171717;");
-                        }
-                        if(name == "annachelle" || name == "Annachelle" || name == "gero" || name == "Gero" || name == "abie" || name == "Abie")
-                        {
-                            document.getElementById("maincontent").setAttribute("style", "background: #ff4e00;");            
-                            document.getElementById("resultbox").setAttribute("style", "background: #ff4e00;");
-                        }
-                        if(name == "laurenz" || name == "Laurenz")
-                        {
-                            document.getElementById("maincontent").setAttribute("style", "background: #db3f3f;");            
-                            document.getElementById("resultbox").setAttribute("style", "background: #db3f3f;");            
-                        }
-                        if(name == "ayami" || name == "Ayami" || name == "tim" || name == "Tim" || name == "Elisha" 
-                            || name == "elisha" || name == "Elisha")
-                        {
-                            document.getElementById("maincontent").setAttribute("style", "background: #2a2860;");            
-                            document.getElementById("resultbox").setAttribute("style", "background: #2a2860; color: #fdf400;");            
-                        }
-                        if(name == "aram" || name == "Aram")
-                        {
-                            document.getElementById("maincontent").setAttribute("style", "background: #a2ff5d;");            
-                            document.getElementById("resultbox").setAttribute("style", "background: #a2ff5d; color: black;");            
-                        }    
-                }
-        </script>
+		<script src="/js/vendor/modernizr.js"></script>        
 	</head>
 
-	<body onload="loaduserid()" id="mainbody">
+	<body onload="viewname()" id="mainbody">
+        <script>viewname();</script>
+        <form name="form">
+            <input type="hidden" name="hidden">
+        </form>
+        
         <script src="doer.js"></script>
         <script language="JavaScript">
             viewname();
         </script>
-        <div class="row pt-page-scaleUp" id="maincontent">           
+        <div class="pt-page-scaleUp" id="maincontent">           
             <div class="large-12 columns">
                 <div id="hiddenspace-120">
                     <center>
