@@ -10,10 +10,18 @@
     height: 200px;
 }
 
-#number {    
-    
+#number {   
+    height: 450px;
+    transition: height 0.5s;
 }
 
 #nametol {
-    height: 190px;
+}
+
+@media (min-width: 200px) and (max-width: 1000px)
+{
+	#number
+	{
+		height: 300px;        
+	}
 }
