@@ -31,7 +31,7 @@ body{
     height: 100%;
     width: 100%;
     margin-top: 20%;
-    margin-bottom: 200px;
+    padding-bottom: 10%;
     padding-top: 50px;
 }
 
@@ -83,4 +83,16 @@ body{
     {
         height: 400px;
     }
+}
+#tribes {
+    background: rgb(28, 119, 119);
+    height: 100%;
+    padding-top: 50px;
+}
+
+#tribe {
+    color: white;
+    font-size: 90px;
+    margin-bottom: 100px;
+    transition: font-size 0.5s;
 }
