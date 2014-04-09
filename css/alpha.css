@@ -108,8 +108,16 @@ body{
 }
 
 #apps {
-    height: 100%;
-    width: 100%;
     background: rgb(237, 109, 109);
     color: white;
+    height: 100%;
+    padding-top: 50px;
+    width: 100%;
+    
+    
+}
+
+#apps-title {
+    font-size: 90px;
+    padding-bottom: 50px;
 }
