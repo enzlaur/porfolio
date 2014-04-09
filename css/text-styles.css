@@ -1,76 +1,92 @@
-h1{    
-    font-family: Rockwell;
+.title
+{
+	font-family: Rockwell;
+	margin-top: 50px;
+	transition: font-size 1s;
 }
-
-p{
-    font-family: Segoe UI Light;
-    font-size: 20px;
+.title-sub
+{
+	font-family: Segoe UI;
+	margin-top: 10px;
 }
-.blur {
-   
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);    
+.title-sub.light
+{
+	font-family: Segoe UI Light;
 }
-
-
-.light-text {
-    color: rgb(217, 217, 217);
+.font-20
+{
+	font-size: 20px;
 }
-
-.font-40 {
-    font-size: 40px;
+.font-25
+{
+	font-size: 25px;
 }
-
-.font-50 {
-    font-size: 50px;
+.font-30
+{
+	font-size: 30px;
 }
-
-.font-60 {
-    font-size: 60px;
+.font-35
+{
+	font-size: 35px;
 }
-
-.font-70 {
-    font-size: 70px;
+.font-50
+{
+	font-size: 50px;
 }
-
-.font-80 {
-    font-size: 80px;
+.font-70
+{
+	font-size: 70px;
 }
-
-
-.no-top {
-
-    margin-top: 0px;
-    padding-top: 0px;
+.font-120
+{
+	font-size: 120px;
 }
-
+.font-white
+{
+	color: white;
+}
+.rockwell
+{
+	font-family: Rockwell;
+}
+@media (max-width: 1005px)
+{
+	.title
+	{
+		text-align: center;
+	}
+}
+@media (max-width: 400px)
+{
+	.title
+	{
+		font-size: 50px;
+	}
+}
 #spoil {
-    text-shadow: 0 0 20px #fff;
-    color: rgba(255,255,255,0);
+    text-shadow: 0 0 8px #fff; color: rgba(255,255,255,0);
     transition: text-shadow 0.3s;
 }
-
 #spoil:hover {
     text-shadow: 0 0 0px #fff; color: rgba(255,255,255,0);
 }
-
-#spoil:focus {
-    text-shadow: 0 0 0px #fff; color: rgba(255,255,255,0);
+.font-segoe-light {
+    font-family: Segoe UI Light;
+    
 }
 
+.font-300 {
+    font-size: 300px;
+}
 
-.tribe-titles {
-    color: white;
-    font-size: 30px;
+.font-center {
     text-align: center;
 }
 
-.tribe-desc {
-    color: white;
-    text-align: center;
-    font-family: Segoe UI;
-    font-size: 18px;
+#hiddenspace-120 {
+    padding-top: 120px;
 }
 
-#apps-name {
-    font-size: 80px;
+.font-left {
+    text-align: left;
 }
