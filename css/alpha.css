@@ -88,6 +88,7 @@ body{
     background: rgb(28, 119, 119);
     height: 100%;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #tribe {
@@ -104,4 +105,11 @@ body{
     color: white;
     padding-top: 10px;
     margin-bottom: 0px;
+}
+
+#apps {
+    height: 100%;
+    width: 100%;
+    background: rgb(237, 109, 109);
+    color: white;
 }
