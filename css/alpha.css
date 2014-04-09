@@ -130,3 +130,40 @@ body{
 #apps-desc {
     font-size: 20px;
 }
+
+#metrolasalle-screens {
+    height: 50%;
+    width: 50%;
+}
+
+#apps-mobile {
+    background: rgb(237, 109, 109);
+    color: white;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    
+}
+
+#apps-web {
+    background: rgb(109, 168, 237);
+    color: white;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    
+}
+
+#train-screens {
+    height: 100%;
+    width: 100%;
+}
+
+#posters {
+    background: rgb(255, 186, 0);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
