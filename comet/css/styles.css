@@ -607,3 +607,11 @@ core-menu > paper-item.core-selected {
     border-top: 2px dotted;    
     border-color: #039be5;
 }
+
+.comet-night{
+    background: #1C2630;
+}
+
+.text-comet-sky {
+    color: #4FC2FB;
+}
