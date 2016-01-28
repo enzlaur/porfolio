@@ -121,13 +121,13 @@ nav {
 
 /* Quiver Colors */
 .quiver-green {
-    background: rgb(10, 27, 32);
+    background: rgb(10, 27, 32) !important;
 }
 .quiver-green-text {
     color: #0A1B20;
 }
 .quiver-accent {
-    background: #66F46F;
+    background: #66F46F !important;
 }
 .quiver-accent-text {
     color: #66F46F;
