@@ -462,6 +462,11 @@
     font-weight: 400;
 }
 
+.sf-200 {
+    font-family: "San Francisco";
+    font-weight: 200;
+}
+
 .lora-400{
     font-family: 'lora';
     font-weight: 400;

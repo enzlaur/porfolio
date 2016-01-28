@@ -9,7 +9,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "San Francisco" !important;
-    font-weight: 700;
+    font-weight: 900;
+    font-kerning: none;    
+}
+
+nav {
+    box-shadow: 0 0 0 0 !important;
 }
 
 /*
@@ -136,7 +141,8 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .nav {
-    transition: background 0.7s;
+    transition: background 0.35s;
+    box-shadow: 0 0 0 0 !important;
 }
 
 

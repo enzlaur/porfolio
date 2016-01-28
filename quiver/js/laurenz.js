@@ -11,9 +11,10 @@ $(document).ready(function(){
     }); 
 });
 
+/*
 $(document).ready(function(){       
    var scroll_start = 0;
-   var startchange = $('.nav');
+   var startchange = $('.changeMe');
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
@@ -24,4 +25,17 @@ $(document).ready(function(){
           $('.nav').css('background-color', 'transparent');
        }
    });
+});
+*/
+
+// For changing the colors of the navbar while scrolling 
+var a = $(".nav").offset().top + 500;
+
+$(document).scroll(function(){
+    if($(this).scrollTop() > a)
+    {   
+       $('.nav').css({"background":"rgb(10, 27, 32)"});
+    } else {
+       $('.nav').css({"background":"transparent"});
+    }
 });
