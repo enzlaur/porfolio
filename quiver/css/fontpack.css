@@ -462,6 +462,11 @@
     font-weight: 400;
 }
 
+.sf-300 {
+    font-family: "San Francisco" !important;
+    font-weight: 300 !important;
+}
+
 .sf-200 {
     font-family: "San Francisco";
     font-weight: 200;
