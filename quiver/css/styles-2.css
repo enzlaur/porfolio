@@ -1,0 +1,153 @@
+/*
+    Native Elements ONLY
+*/
+
+body {
+    font-family: "San Francisco" !important;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "San Francisco" !important;
+    font-weight: 700;
+}
+
+/*
+    Pushdown - A lazy way to add padding-top on elements without creating a class for it or doing in-line style editing
+*/
+/* Downwards */
+.pushdown-20p {
+    padding-top: 20%;
+}
+.pushdown-10p {
+    padding-top: 10%;
+}
+.pushdown-15p {
+    padding-top: 15%;
+}
+.pushdown-5p {
+    padding-top: 5%;
+}
+.pushdown-2p {
+    padding-top: 2%;
+}
+.pushdown-1p {
+    padding-top: 1%;
+}
+/* Leftwards */
+.pushleft-20p {
+    padding-left: 20%;
+}
+.pushleft-10p {
+    padding-left: 10%;
+}
+.pushleft-15p {
+    padding-left: 15%;
+}
+.pushleft-5p {
+    padding-left: 5%;
+}
+.pushleft-2p {
+    padding-left: 2%;
+}
+.pushleft-1p {
+    padding-left: 1%;
+}
+/*
+    Sections
+*/
+
+#sec { 
+    padding-top: 15%;
+    padding-bottom: 15%;    
+    vertical-align: middle; 
+    position: relative;
+    z-index: 2;
+}
+
+#above-fold {
+    
+    position: relative;
+    z-index: 3;
+}
+
+#shayane {
+    position: relative;
+    height: inherit;
+    width: inherit;
+    z-index: 2;
+    background-image: -o-linear-gradient(0deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: -moz-linear-gradient(00deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    
+    background-image: -webkit-linear-gradient(0deg,rgba(10, 27, 32, 1) 0%,rgba(10, 27, 32, 1) 57%,rgba(10, 27, 32, 0) 100%);
+    
+    background-image: -ms-linear-gradient(90deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: linear-gradient(90deg,rgb(10, 27, 32, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+}
+
+/*
+    Gradient Background Example
+*/
+
+#grad-bg {
+    /*background: rgba(9, 15, 14, 0.95);*/    
+    background-image: -o-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: -moz-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: -webkit-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: -ms-linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+    background-image: linear-gradient(180deg,rgba(9, 15, 14, 0) 0%,rgba(9, 15, 14, 0.95) 45%,rgba(9, 15, 14, 0) 90%);
+}
+
+/*
+    Border quick settings - Lazy way to remove margins and paddings without adding new code
+*/
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+/*
+    PRIMARY NON-MATERIALIZE COLORS TO BE USED
+*/
+
+/* Quiver Colors */
+.quiver-green {
+    background: rgb(10, 27, 32);
+}
+.quiver-green-text {
+    color: #0A1B20;
+}
+.quiver-accent {
+    background: #66F46F;
+}
+.quiver-accent-text {
+    color: #66F46F;
+}
+.comet-night {
+    background: #1C2630;
+}
+
+/*
+    Div edits
+*/
+
+.nav {
+    transition: background 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
