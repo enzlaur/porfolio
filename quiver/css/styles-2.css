@@ -5,6 +5,8 @@
 body {
     font-family: "San Francisco" !important;
     font-weight: 400;
+    background-image: url(https://earnest-static-assets.s3.amazonaws.com/images/annual-report/confetti-background-final-c10b9a151a.png);
+    background-position: center -20px;
 }
 
 h1, h2, h3, h4, h5, h6 {

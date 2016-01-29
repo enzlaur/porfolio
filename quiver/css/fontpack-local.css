@@ -14,44 +14,44 @@
 
 /** Ultra Light */
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 100;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-ultralight-webfont.ttf");
 }
 
 /** Thin */
 @font-face {
   font-family: "San Francisco";
   font-weight: 200;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+  src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-thin-webfont.ttf");
 }
 
 /** Regular */
 @font-face {
   font-family: "San Francisco";
   font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-regular-webfont.ttf");
 }
 
 /** Medium */
 @font-face {
   font-family: "San Francisco";
   font-weight: 500;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+  src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf");
 }
 
 /** Semi Bold */
 @font-face {
   font-family: "San Francisco";
   font-weight: 600;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+  src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-semibold-webfont.tff");
 }
 
 /** Bold */ 
 @font-face {
   font-family: "San Francisco";
   font-weight: 700;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  src: url("http://127.0.0.1:49306/font/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf");
 }
 
 /*
@@ -451,11 +451,6 @@
 /*
     Custom class calls for selected fonts
 */
-
-.sf-900 {
-    font-family: "San Francisco";
-    font-weight: 900;
-}
 
 .sf-700 {
     font-family: "San Francisco";
