@@ -32,21 +32,21 @@
     <!-- 
         Start of Body 
     -->
-    <body class="grey lighten-4">
+    <body class="grey lighten-4 bodyBGimage">
         <!-- belowNav provides an effect for the nav bar-->
         <div class="belowNav"></div>
         <!-- 
             NAVBAR 
         -->
         <nav class="transparent fixed nav" style="position: fixed; z-index: 99;">
-            <div class="nav-wrapper nav">
+            <div class="nav-wrapper nav" >
                 <!-- Left Part of the NavBar-->
                 <div class="valign-wrapper pushleft-5p">
                     <a href="index.html">
                         <img src="assets/images/quiver-badge-only.png" class="valign" style="width: 45px;">
                     </a>
                     <a href="index.html">
-                        <h4 class="white-text valign pushleft-10p">
+                        <h4 class="white-text valign pushleft-10p" >
                             QUIVER
                         </h4>
                     </a>
@@ -54,8 +54,16 @@
                         <!-- Only visible when screensize is desktoplike or larger -->
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down" style="padding-right: 20px;">                            
-                            <li><a href="badges.html">FAQ</a></li>
-                            <li><a href="collapsible.html">Requirements</a></li>
+                            <li>
+                                <a href="badges.html">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="collapsible.html">
+                                    Requirements
+                                </a>
+                            </li>
                             <li>
                                 <a href="mobile.html" class="white quiver-green-text"
                                    style="border-radius: 40px; height: 35px; margin-top: 15px; line-height: 35px">
@@ -486,15 +494,18 @@
             $(".button-collapse").sideNav();
         </script>
         <script type="text/javascript" src="js/laurenz.js"></script>
+        <!-- Script for changing navbar color. I know it's primitive. -->
+        <script>
+            var a = $(".nav").offset().top + 500;
+
+            $(document).scroll(function(){
+                if($(this).scrollTop() > a)
+                {   
+                    $('.nav').css({"background":"rgb(10, 27, 32)"});
+                } else {
+                   $('.nav').css({"background":"transparent"});
+                }
+            });
+        </script>
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-

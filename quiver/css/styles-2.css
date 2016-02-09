@@ -5,9 +5,9 @@
 body {
     font-family: "San Francisco" !important;
     font-weight: 400;
-    background-image: url(https://earnest-static-assets.s3.amazonaws.com/images/annual-report/confetti-background-final-c10b9a151a.png);
     background-position: center -20px;
     height: 100%;
+    color: 0A1B20;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,8 +32,20 @@ p {
     Pushdown - A lazy way to add padding-top on elements without creating a class for it or doing in-line style editing
 */
 /* Downwards */
+.pushdown-75px {
+    padding-top: 75px;
+}
+.pushdown-50px {
+    padding-top: 50px;
+}
+.pushdown-40px {
+    padding-top: 40px;
+}
 .pushdown-20p {
     padding-top: 20%;
+}
+.pushdown-20px {
+    padding-top: 20px;
 }
 .pushdown-10p {
     padding-top: 10%;
@@ -132,10 +144,10 @@ p {
 
 /* Quiver Colors */
 .quiver-green {
-    background: rgb(10, 27, 32) !important;
+    background: #0a1b20 !important;
 }
 .quiver-green-text {
-    color: #0A1B20;
+    color: #0A1B20 !imkportant;
 }
 .quiver-accent {
     background: #66F46F !important;
@@ -153,8 +165,13 @@ p {
 
 .nav {
     opacity: 0.97;    
-    transition: background 0.35s;
+    transition: background 0.4s;
     box-shadow: 0 0 0 0 !important;
+}
+
+.nav h4 {
+    color: white;    
+    transition: color 0.35s;
 }
 
 .belowNav {
@@ -180,6 +197,47 @@ p {
     
 } 
 
+.white-to-quiver {
+    color: #0a1b20;
+    transition: color 0.35s;
+}
+
+#submitBtn {
+    transition: color 0.4s, background 0.4s;
+}
+
+.moveLeft {        
+    transform: translate(-30px,0px);
+    transition: transform 1s ease-in-out;
+}
+
+.bodyBGimage {    
+    background-image: url(https://earnest-static-assets.s3.amazonaws.com/images/annual-report/confetti-background-final-c10b9a151a.png);
+}
+
 #Requirements {
     background-image: url(http://letters-inc.jp/wp-content/themes/g/img/top7@1x.png);
+}
+
+/* Required by Typed.js to have an animated cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

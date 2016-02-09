@@ -27,15 +27,3 @@ $(document).ready(function(){
    });
 });
 */
-
-// For changing the colors of the navbar while scrolling 
-var a = $(".nav").offset().top + 500;
-
-$(document).scroll(function(){
-    if($(this).scrollTop() > a)
-    {   
-       $('.nav').css({"background":"rgb(10, 27, 32)"});
-    } else {
-       $('.nav').css({"background":"transparent"});
-    }
-});
