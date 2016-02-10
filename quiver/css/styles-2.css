@@ -293,6 +293,11 @@ p {
     color: magenta !important;
 }
 
+.cat.robotics {
+    border-color: lawngreen;
+    color: lawngreen !important;
+}
+
 .cat.pole-pos {
     border-color: blue;
     color: blue;
