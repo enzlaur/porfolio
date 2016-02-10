@@ -5,8 +5,7 @@
 body {
     font-family: "San Francisco" !important;
     font-weight: 400;
-    background-position: center -20px;
-    height: 100%;
+    background-position: center -20px;    
     color: 0A1B20;
 }
 
@@ -222,7 +221,7 @@ p {
 .hr-green {
     border-top: 1px dashed;
     border-top-color: #69f0ae;
-    width: 95%;
+    width: 90%;
     height: 0px;
     align-content: center;
     
@@ -308,41 +307,6 @@ p {
     color: white !important;
 }
 
-/* App Cards */
-.app {
-    background:
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(10, 27, 32, 0.95), 
-      rgba(10, 27, 32, 1)
-    ),
-    /* bottom, image */
-    url("/assets/images/sharezone-screen.png") !important;
-}
-/* SOMETHNG */
-#app-1 {    
-    background:
-   /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(10, 27, 32, 0.90), 
-      rgba(10, 27, 32, 1)
-    ),
-    /* bottom, image */
-    url("/assets/images/sharezone-screen.png") !important;
-    
-}
-
-#app-white {
-    background:
-       /* top, transparent red, faked with gradient */ 
-        linear-gradient(
-          rgba(255, 255, 255, 0.97), 
-          rgba(255, 255, 255, 1)
-        ),
-        /* bottom, image */
-        url("/assets/images/sharezone-screen.png") !important; 
-    box-shadow: 0 0 0 0;
-}
 
 /* Card */
 
@@ -354,6 +318,20 @@ p {
     border-color: #00E676;
     box-shadow: 0 0 0 0;
     /* Size & Position */    
+}
+
+.white-border {
+    /* Border */
+    border: 1px solid;
+    border-radius: 5px;
+    /* Colors */    
+    border-color: white;
+    box-shadow: 0 0 0 0;
+    /* Size & Position */      
+}
+
+.white-border.dashed {
+    border: 1px dashed;
 }
 
 .score-in-card {
@@ -397,4 +375,10 @@ p {
     box-shadow: 0 0 0 0;
     /* Size & Position */  
     height: 520px;
+}
+
+.image-featured-screen {
+    
+    
+    background-image: url('/assets/images/shayane.png');
 }

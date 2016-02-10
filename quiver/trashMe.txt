@@ -226,3 +226,42 @@
                 </div>
             </div>
         </section>
+        
+        
+        
+        <section>
+            <div class="center">                
+            </div>
+            <div class="container" style="width: 90%;">
+                <div class="card green-border white">
+                    
+                    <div class="card-content" style="padding: 0px 0px 0px 12px; height: 300px;">
+                        <div class="row" style="height: 300px;">
+                            <!-- Featured work screenshot -->
+                            <div class="col s12 m4 no-margin image-featured-screen" style="height: inherit;">
+                                <!-- Image was placed here -->
+                            </div>
+                            <!-- Featured Project Title -->
+                            <div class="col s12 m4" >
+                                <h2 class="green-text text-accent-3">
+                                    Text Summarizer for Mobile
+                                </h2>
+                                <h5>
+                                    Web Application
+                                </h5>
+                            </div>
+                            <!-- Featured Project Description -->
+                            <div class="col s12 m4" style="height: inherit; border-left: 1px solid #f0f0f0;">
+                                <!-- SPACE --> <div class="pushdown-10p"></div>
+                                <div style="padding-left: 10px; padding-right: 10px;">
+                                    <p>
+                                        A text summarizer is something magical, I am too lazy to paste a lorem ipsum but here it goes anyway. <br>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
