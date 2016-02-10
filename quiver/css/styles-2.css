@@ -173,7 +173,7 @@ p {
     border: 1px solid;
     border-radius: 5px;
     /* Colors */
-    background: 0;
+    background: white;
     border-color: #00E676;
     box-shadow: 0 0 0 0;
     /* Size & Position */
@@ -278,9 +278,9 @@ p {
 
 .cat {
     border: 1px solid;    
-    height: 30px;
-    line-height: 30px;
-    border-radius: 5px;    
+    height: 40px;    
+    border-radius: 5px;
+    padding: 7px 5px 5px 5px;
 }
 
 .cat.mobile {
@@ -294,8 +294,8 @@ p {
 }
 
 .cat.robotics {
-    border-color: lawngreen;
-    color: lawngreen !important;
+    border-color: red;
+    color: red !important;
 }
 
 .cat.pole-pos {
@@ -324,7 +324,7 @@ p {
     background:
    /* top, transparent red, faked with gradient */ 
     linear-gradient(
-      rgba(10, 27, 32, 0.95), 
+      rgba(10, 27, 32, 0.90), 
       rgba(10, 27, 32, 1)
     ),
     /* bottom, image */
@@ -332,9 +332,69 @@ p {
     
 }
 
+#app-white {
+    background:
+       /* top, transparent red, faked with gradient */ 
+        linear-gradient(
+          rgba(255, 255, 255, 0.97), 
+          rgba(255, 255, 255, 1)
+        ),
+        /* bottom, image */
+        url("/assets/images/sharezone-screen.png") !important; 
+    box-shadow: 0 0 0 0;
+}
 
+/* Card */
 
+.green-border {
+    /* Border */
+    border: 1px solid;
+    border-radius: 5px;
+    /* Colors */    
+    border-color: #00E676;
+    box-shadow: 0 0 0 0;
+    /* Size & Position */    
+}
 
+.score-in-card {
+    position: absolute;
+    bottom: 0px; 
+    width: 100%;
+}
 
+.short-desc {
+    height: 180px;
+    width: 100%;
+    
+    text-overflow: ellipsis;    
+    overflow: hidden;    
+}
 
+.overflow-white {
+    /* color */
+    background: 
+        linear-gradient(
+            rgba(255, 255, 255, 0), 
+            rgba(255, 255, 255, 1)
+        );
+    /* position */
+    position: absolute;
+    bottom: 205px; 
+    left: 0px;
+    z-index: 5;
+    /* size */
+    height: 70px;     
+    width: inherit;
+}
 
+.app-card-plain {    
+    /* Border */
+    border: 1px solid;
+    border-radius: 5px;
+    /* Colors */
+    background: white;
+    border-color: #00E676;
+    box-shadow: 0 0 0 0;
+    /* Size & Position */  
+    height: 520px;
+}
