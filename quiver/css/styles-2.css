@@ -375,10 +375,25 @@ p {
     box-shadow: 0 0 0 0;
     /* Size & Position */  
     height: 520px;
+    cursor: pointer;        
+}
+
+.app-card-plain:hover {
+    box-shadow: 0 20px 60px 1px #00E676;
 }
 
 .image-featured-screen {
     
     
     background-image: url('/assets/images/shayane.png');
+}
+
+.criteria {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.score {
+    font-size: 1.5em;
+    font-weight: 800;
 }
