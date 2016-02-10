@@ -47,6 +47,9 @@ p {
 .pushdown-40p {
     padding-top: 40%;
 }
+.pushdown-30p {
+    padding-top: 30%;
+}
 .pushdown-20p {
     padding-top: 20%;
 }
@@ -271,23 +274,62 @@ p {
     100% { opacity:1; }
 }
 
-/* ELSE */
+/* CATEGORIES */
 
-.cat-mobile {
-    border: 1px solid;
+.cat {
+    border: 1px solid;    
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;    
+}
+
+.cat.mobile {
     border-color: #ff8f00;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 5px;
-    margin-left: 10px !important;
+    color: #ff8f00;
 }
 
-.cat-pole-pos {
-    border: 1px solid;
-    border-color: blue;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 5px;
-    margin-left: 10px !important;
+.cat.web {
+    border-color: magenta;
+    color: magenta !important;
 }
+
+.cat.pole-pos {
+    border-color: blue;
+    color: blue;
+}
+
+.cat.honorable-mention-light {
+    border-color: white;
+    color: white !important;
+}
+
+/* App Cards */
+.app {
+    background:
+   /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(10, 27, 32, 0.95), 
+      rgba(10, 27, 32, 1)
+    ),
+    /* bottom, image */
+    url("/assets/images/sharezone-screen.png") !important;
+}
+/* SOMETHNG */
+#app-1 {    
+    background:
+   /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(10, 27, 32, 0.95), 
+      rgba(10, 27, 32, 1)
+    ),
+    /* bottom, image */
+    url("/assets/images/sharezone-screen.png") !important;
+    
+}
+
+
+
+
+
+
 

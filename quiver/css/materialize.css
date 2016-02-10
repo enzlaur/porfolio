@@ -1615,7 +1615,7 @@
   background-color: #FFFFFF !important; }
 
 .white-text {
-  color: #FFFFFF; }
+  color: #FFFFFF !important; }
 
 .transparent {
   background-color: transparent !important; }
