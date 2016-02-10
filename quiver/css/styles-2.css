@@ -38,8 +38,14 @@ p {
 .pushdown-50px {
     padding-top: 50px;
 }
+.pushdown-50p {
+    padding-top: 50%;
+}
 .pushdown-40px {
     padding-top: 40px;
+}
+.pushdown-40p {
+    padding-top: 40%;
 }
 .pushdown-20p {
     padding-top: 20%;
@@ -264,3 +270,24 @@ p {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+/* ELSE */
+
+.cat-mobile {
+    border: 1px solid;
+    border-color: #ff8f00;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-left: 10px !important;
+}
+
+.cat-pole-pos {
+    border: 1px solid;
+    border-color: blue;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-left: 10px !important;
+}
+
