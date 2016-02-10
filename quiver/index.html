@@ -85,25 +85,62 @@
         <!-- 
             MAIN CONTENT 
         -->                
-        <!-- Load image here because replicating the gradient was a hit and miss -->
+        <!-- ABOVE THE FOLD -->
         <section id="Above-The-Fold" class="windowheight">            
             <div style="padding-top: 80px;">                
                 <div class="container">
-                    <div class="row">
-                        <!-- SPACE --><div class="pushdown-10p"></div>                    
-                        <div class="col s12">
-                            <h1 class="quiver-green-text">
-                                Awarding those who go <br>
-                                beyond <span class="element green-text text-accent-3"></span>
-                            </h1>
+                    <!-- Description and animated text -->
+                    <div>
+                        <!-- header with typed js -->
+                        <div class="row">
+                            <!-- SPACE --><div class="pushdown-10p"></div>                    
+                            <div class="col s12">
+                                <h1 class="quiver-green-text">
+                                    Awarding those who go <br>
+                                    beyond 
+                                    <!-- Typed js content goes here -->
+                                    <span class="element green-text text-accent-3"></span>
+                                </h1>
+                            </div>
+                        </div>
+                        <!-- quick summary -->
+                        <div class="row">
+                            <div class="col s12 m8">
+                                <p>
+                                    Quiver wants to recognize the talent and hardwork behind Machine Projects (MPs) that go beyond expectations. Quiver is a platform to showcase the projects that stands out from the rest of the pack made by students who gave more than 100% in order to create a compelling work. 
+                                </p>
+                            </div>                        
+                        </div>
+                        <!-- button for staging site -->
+                        <div class="row">
+                            <a href="stage.html" class="btn btn-border-only green-text text-accent-3">
+                                Read more what Quiver is about here
+                            </a>
                         </div>
                     </div>
+                    <!-- SPACE --><div class="pushdown-10p"></div>
                     <div class="row">
-                        <div class="col s12 m8">
-                            <p>
-                                Quiver wants to recognize the talent and hardwork behind Machine Projects (MPs) that go beyond expectations. Quiver is a platform to showcase the projects that stands out from the rest of the pack made by students who gave more than 100% in order to create a compelling work. 
+                        <center>
+                            <p class="grey-text text-lighten-2">
+                                VIEW THE PROJECTS BELOW
                             </p>
-                        </div>                        
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BELOW THE FOLD  -->
+        <!-- Show a nice project here -->
+        <section class="grey lighten-4 windowheight">
+            <!-- SPACE --><div class="pushdown-10p"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-content">
+                                Something
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -146,7 +183,10 @@
         <!-- 
             \FOOTER 
         -->
-        <!-- Script Start -->
+        
+        <!-- 
+            Script Start 
+        -->
         <script type="text/javascript" src="js/materialize.js"></script>
         <script> 
             $(".button-collapse").sideNav();
@@ -161,7 +201,7 @@
                 {   
                     $('.nav').css({"background":"rgb(10, 27, 32)"});
                     $('.white-to-quiver').css({"color":"white"});
-                    $('#submitBtn').css({"color":"#0a1b20", "background":"white"});
+                    $('#submitBtn').css({"color":"#0a1b20", "background":"#00e676"});
                     $('.moveLeft').css({"transform":"translate(0px,0px)", "transition":"transform 0.4s ease-in-out"});
                     
                 } else {
@@ -177,7 +217,7 @@
         <script>            
           $(function(){
               $(".element").typed({                
-                  strings: ["the norm", "tradition", "the specs", "laziness", "expectations", "what the other group just did" ],
+                  strings: ["the norm.", "tradition.", "the specs.", "laziness.", "expectations.", "what the other group just did." ],
                   typeSpeed: 30,
                   loop: true,
                   showCursor: false,

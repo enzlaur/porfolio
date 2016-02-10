@@ -159,6 +159,28 @@ p {
     background: #1C2630;
 }
 
+.btn-border-only {
+    /* Border */
+    border: 1px solid;
+    border-radius: 5px;
+    /* Colors */
+    background: 0;
+    border-color: #00E676;
+    box-shadow: 0 0 0 0;
+    /* Size & Position */
+    height: 50px;
+    line-height: 3.2;    
+    
+}
+
+.btn-border-only:hover {
+    /* Colors */
+    background: #00E676;
+    color: white !important;
+    /* Fading transition */
+    transition: background 0.5s color 0.5s;
+}
+
 /*
     Div edits
 */
@@ -220,6 +242,7 @@ p {
 }
 
 /* Required by Typed.js to have an animated cursor */
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
